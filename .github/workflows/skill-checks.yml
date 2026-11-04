@@ -10,7 +10,7 @@ permissions:
   id-token: write
 jobs:
   skills:
-    uses: NVIDIA/SkillEvaluator/.github/workflows/evaluate-skills.yml@46a8cf269257d1ec56a0285c508ac9ee48010930
+    uses: NVIDIA/SkillEvaluator/.github/workflows/evaluate-skills.yml@acfb793b40d3d34ae9d6ae804b4f7354122b76c1
     with:
       image: ghcr.io/nvidia/skillevaluator-tier1@sha256:a3baec51f48145cdf9de05a5ab054d9576f62f1de0f5276b788410f5c17747d4
       paths: ${{ inputs.paths }}
